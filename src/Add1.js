@@ -4,7 +4,7 @@ import React from 'react'
 function Add1(props) {
     console.log('hi')
     return <>
-    
+        <h1>Card</h1>
         <div className="container">
 
             {/* <!-- Page Heading --> */}
