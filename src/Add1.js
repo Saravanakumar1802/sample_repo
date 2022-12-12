@@ -2,15 +2,10 @@
 import React from 'react'
 
 function Add1(props) {
-    console.log('hi')
+    console.log(props.data.button);
     return <>
-        <h1>Card</h1>
+        
         <div className="container">
-
-            {/* <!-- Page Heading --> */}
-            <h1 className="my-4">Page Heading
-                <small>Secondary Text</small>
-            </h1>
 
             {/* <!-- Project One --> */}
             <div className="row">
@@ -21,8 +16,9 @@ function Add1(props) {
                 </div>
                 <div className="col-md-5">
                     <h3>{props.data.projectName}</h3>
-                    <p>{ props.data.content}</p>
-                    <a className="btn btn-primary" href="Javascript(void)">View Project</a>
+                    <p>{props.data.content}</p>
+                    
+                    <a className={`btn btn-${props.data.button}`} href="Javascript(void)">View Project</a>
                 </div>
             </div>
         </div>
