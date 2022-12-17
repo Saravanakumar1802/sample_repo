@@ -1,7 +1,7 @@
 import './App.css';
 import Add1 from './Add1'
-import States from './components/States';
-import Navigate from './components/useNavigate/Navigate';
+// import States from './components/States';
+// import Navigate from './components/useNavigate/Navigate';
 
 function App() {
 
@@ -40,8 +40,6 @@ function App() {
       <Add1 data={Cards[2]} /><br />
 
       {/* <States /> */}
-
-
 
     </div>
   );
